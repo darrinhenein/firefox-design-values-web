@@ -1,0 +1,203 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.high-line {
+    line-height: 160%;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    /*width: 100%;*/
+}
+
+.wrap.value {
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.wrap.header {
+    background: #5A5B5D;
+    background: #3d3e40;
+    color: #FFF;
+    padding: 40px 0 40px;
+    justify-content: center;
+}
+
+.wrap.header h3, .wrap.header h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap.ring {
+    background: #666769;
+    color: #FFF;
+    max-height: 420px;
+    min-height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wrap.white {
+    background: #FFF;
+    color: #222;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.red-bg {
+    background: #C23C37;
+}
+
+.tangerine-bg {
+    background: #E5552F;
+}
+
+.orange-bg {
+    background: #F08A31;
+}
+
+.yellow-bg {
+    background: #FECD2F;
+}
+
+.mint-bg{
+    background: #5FC1A6;
+}
+
+.blue-bg{
+    background: #239BD4;
+}
+
+.navy-bg{
+    background: #075389;
+}
+
+.indigo-bg{
+    background: #192956;
+}
+
+.purple-bg{
+    background: #672865;
+}
+
+.red-fg {
+    color: #C23C37;
+}
+
+.tangerine-fg {
+    color: #E5552F;
+}
+
+.orange-fg {
+    color: #F08A31;
+}
+
+.yellow-fg {
+    color: #FECD2F;
+}
+
+.mint-fg{
+    color: #5FC1A6;
+}
+
+.blue-fg{
+    color: #239BD4;
+}
+
+.navy-fg{
+    color: #075389;
+}
+
+.indigo-fg{
+    color: #192956;
+}
+
+.purple-fg{
+    color: #672865;
+}
+
+.wrap.grey {
+    background: #EFF0F0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrap.process .container.image {
+    background: url('../images/design-process.min.svg') no-repeat;
+    background-size: 100%;
+    min-height: 600px;
+    max-height: 800px;
+}
+
+@media(max-width: 768px) {
+
+ .wrap.process .container.image {
+     background-size: contain;
+     background-position: bottom center;
+     max-height: 400px;
+     min-height: 350px;
+     width: 100%;
+ }
+}
+
+.wrap.footer {
+    background: #333;
+    color: #FFF;
+}
+
+.container.ring {
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Custom page header */
+.header {
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    font-weight: 100;
+    font-size: 225%;
+    display: inline-block;
+}
+
+.ring-image {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.ring-image svg {
+    width: 100%;
+    height: 100%;
+}
