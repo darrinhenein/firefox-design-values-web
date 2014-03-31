@@ -1,4 +1,4 @@
-d3.xml('../images/ring.svg', 'image/svg+xml', function (error, data) {
+d3.xml('../images/ring.min.svg', 'image/svg+xml', function (error, data) {
     if (error) {
         console.log('Error while loading the SVG file!', error);
     }
