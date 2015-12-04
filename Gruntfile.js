@@ -232,7 +232,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= config.app %>/images',
-                    src: '{,*/}*.svg',
+                    src: '{,*/}*.svgz',
                     dest: '<%= config.dist %>/images'
                 }]
             }
@@ -296,9 +296,10 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,png,txt}',
                         '.htaccess',
-                        'images/{,*/}*.{webp, svg}',
+                        'images/{,*/}*.*',
                         '{,*/}*.html',
                         'styles/fonts/{,*/}*.*',
+                        'data/*.*',
                         'bower_components/bootstrap/dist/fonts/*.*'
                     ]
                 }]
@@ -322,8 +323,7 @@ module.exports = function (grunt) {
             ],
             dist: [
                 'copy:styles',
-                'imagemin',
-                'svgmin'
+                'imagemin'
             ]
         }
     });

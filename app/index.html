@@ -29,17 +29,20 @@
 <div class="wrap header">
         <div class="container">
             <div class="header">
-                <h3 class="col-md-9">Firefox Design Values</h3>
-                <h5 class="col-md-3 high-line italic">
-                    Made with love by <br/> the Firefox UX Team
-                </h5>
+                    <a href="http://people.mozilla.org/~madhava/FDV/FirefoxDesignValuesBooklet.pdf"><div class="download-button"><img src="images/download.min.svg" />Download the PDF</div></a>
+                    <img src="images/firefox.svg"/>
+                    <h3>
+                    Firefox Design Values
+                    <small class="italic">
+                        Made with love by the Firefox UX Team
+                        <a href="http://twitter.com/mozillaUX"><img src="images/twitter.png"/></a>
+                    </small>
+                    </h3>
             </div>
         </div>
 </div>
 <div class="wrap ring">
-        <div class="container ring">
             <div class="ring-image"></div>
-        </div>
 </div>
 <div class="wrap white">
         <div class="container">
@@ -68,16 +71,16 @@
         </div>
         <div class="container">
             <div class="col-md-3">
-                <h4 class="italic">Values help us filter and choose what design opportunities to pursue</h4>
+                <h4 class="italic"><span>A</span>Values help us filter and choose what design opportunities to pursue</h4>
             </div>
             <div class="col-md-3">
-                <h4 class="italic">Values shape our design decisions as we refine and test</h4>
+                <h4 class="italic"><span>B</span>Values shape our design decisions as we refine and test</h4>
             </div>
             <div class="col-md-3">
-                <h4 class="italic">Values guide us through implementation tradeoffs, and explain what we’re shipping</h4>
+                <h4 class="italic"><span>C</span>Values guide us through implementation tradeoffs, and explain what we’re shipping</h4>
             </div>
             <div class="col-md-3">
-                <h4 class="italic">Values help establish what constitutes success</h4>
+                <h4 class="italic"><span>D</span>Values help establish what constitutes success</h4>
             </div>
         </div>
 </div>
@@ -88,7 +91,10 @@
         </div>
         </div>
 </div>
-<div class="wrap red-bg value">
+
+<!--values-->
+
+<div class="wrap red-bg value" id="house-block">
     <div class="container">
         <div class="col-xs-3">
             <img src="images/house.min.svg">
@@ -97,10 +103,19 @@
             <h2>Takes care of you</h2>
             <p class="lead">Firefox champions you – your security, privacy, and the quality of your online life. It makes sensible decisions for you that respect your time, data, and attention.</p>
         </div>
+        <div class="col-xs-9 col-xs-offset-3">
+            <h4>PRINCIPLES</h4>
+            <ul>
+              <li>user-sovereignty</li>
+              <li>default to privacy</li>
+              <li>no surprises</li>
+              <li>actionable advice</li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="wrap tangerine-bg value">
+<div class="wrap tangerine-bg value" id="water-block">
     <div class="container">
         <div class="col-xs-9">
             <h2>You help make it</h2>
@@ -109,22 +124,39 @@
         <div class="col-xs-3">
             <img src="images/water.min.svg">
         </div>
+        <div class="col-xs-9">
+            <h4>PRINCIPLES</h4>
+            <ul>
+                <li>research gives a voice to our non-core community</li>
+                <li>start people with smart defaults</li>
+                <li>implicit as well as explicit customization</li>
+                <li>invite people to be more than users</li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="wrap orange-bg value">
+<div class="wrap orange-bg value" id="hands-block">
     <div class="container">
         <div class="col-xs-3">
             <img src="images/hands.min.svg">
         </div>
         <div class="col-xs-9">
             <h2>Plays well with others</h2>
-            <p class="lead">The web is huge and hard to comprehend. Firefox helps make sense of it by focusing on your real human goals and activities and giving you the tools you need to accomplish your ends.</p>
+            <p class="lead">Firefox is part of the community of products you choose because they’re great, not because they’re the defaults. In that spirit, Firefox never locks you into particular services or providers. Instead, it gives you choice and independence (along with great suggestions) so you can have the best possible experience.</p>
+        </div>
+        <div class="col-xs-9 col-xs-offset-3">
+            <h4>PRINCIPLES</h4>
+            <ul>
+                <li>user control and choice</li>
+                <li>simple to use the services you choose</li>
+                <li>suggest ways to get the most out of the web</li>
+            </ul>
         </div>
     </div>
 </div>
 
-<div class="wrap yellow-bg value">
+<div class="wrap yellow-bg value" id="heart-block">
     <div class="container">
         <div class="col-xs-9">
             <h2>Exuberant</h2>
@@ -133,10 +165,19 @@
         <div class="col-xs-3">
             <img src="images/heart.min.svg">
         </div>
+        <div class="col-xs-9">
+            <h4>PRINCIPLES</h4>
+            <ul>
+                <li>feels like there is a person at the other end</li>
+                <li>fun tools are easier to use</li>
+                <li>humour and whimsy</li>
+                <li>have a point of view</li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="wrap mint-bg value">
+<div class="wrap mint-bg value" id="compass-block">
     <div class="container">
         <div class="col-xs-3">
             <img src="images/compass.min.svg">
@@ -145,22 +186,36 @@
             <h2>Finely crafted</h2>
             <p class="lead">Firefox is made by people who care about the details. A beautiful product is a pleasure to use and feels easy and clear. This only comes with craft and attention to detail.</p>
         </div>
+        <div class="col-xs-9 col-xs-offset-3">
+            <h4>PRINCIPLES</h4>
+            <ul>
+                <li>see also our visual design guidelines</li>
+                <li>continuity of look and feel across platforms</li>
+                <li>perceivable quality is vital</li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="wrap blue-bg value">
+<div class="wrap blue-bg value" id="graph-block">
     <div class="container">
         <div class="col-xs-9">
             <h2>Global</h2>
-            <p class="lead">The web is huge and hard to comprehend. Firefox helps make sense of it by focusing on your real human goals and activities and giving you the tools you need to accomplish your ends.</p>
+            <p class="lead">Firefox is used and made by people all around the world. It’s not just translated — it’s designed for the whole world, place by place. While certain activities are universal, there’s a real diversity of use and need across the globe, and Firefox cares about these differences.</p>
         </div>
         <div class="col-xs-3">
             <img src="images/graph.min.svg">
         </div>
+        <div class="col-xs-9">
+            <h4>PRINCIPLES</h4>
+            <ul>
+              <li>global means local and local and local</li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="wrap navy-bg value">
+<div class="wrap navy-bg value" id="flame-block">
     <div class="container">
         <div class="col-xs-3">
             <img src="images/flame.min.svg">
@@ -169,10 +224,17 @@
             <h2>Balances power and simplicity</h2>
             <p class="lead">Firefox is simple and easy to use, clean and straightforward in its design. But simplicity is a means, not the end – the end is understanding and user-agency.</p>
         </div>
+        <div class="col-xs-9 col-xs-offset-3">
+            <h4>PRINCIPLES</h4>
+            <ul>
+                <li>80/20/2: default to surface minimalism and easy access to the rest</li>
+                <li>user-agency and understanding, not just less</li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="wrap indigo-bg value">
+<div class="wrap indigo-bg value" id="sign-block">
     <div class="container">
         <div class="col-xs-9">
             <h2>Makes sense of the web</h2>
@@ -181,10 +243,19 @@
         <div class="col-xs-3">
             <img src="images/sign.min.svg">
         </div>
+        <div class="col-xs-9">
+            <h4>PRINCIPLES</h4>
+            <ul>
+                <li>focus on real human tasks and contexts</li>
+                <li>many real tasks involve a browser and other tools</li>
+                <li>quick access to your stuff and web</li>
+                <li>no jargon</li>
+            </ul>
+        </div>
     </div>
 </div>
 
-<div class="wrap purple-bg value">
+<div class="wrap purple-bg value" id="meter-block">
     <div class="container">
         <div class="col-xs-3">
             <img src="images/meter.min.svg">
@@ -193,9 +264,21 @@
             <h2>High user-performance</h2>
             <p class="lead">Speed is still the most important part of a good browser experience, but on top of benchmarkable technical performance, the browser must feel viscerally responsive.</p>
         </div>
+        <div class="col-xs-9 col-xs-offset-3">
+            <h4>PRINCIPLES</h4>
+            <ul>
+                <li>performance is objective, but responsiveness is subjective</li>
+                <li>a happy user performs better</li>
+            </ul>
+        </div>
     </div>
 </div>
 
+<div class="wrapper">
+    <div class="wrap footer">
+    <div class="container">Mozilla 2014.</div>
+    </div>
+</div>
 </div> <!-- end wrapper -->
 
 

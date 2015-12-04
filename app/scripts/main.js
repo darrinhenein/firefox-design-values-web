@@ -1,4 +1,4 @@
-d3.xml('../images/ring.min.svg', 'image/svg+xml', function (error, data) {
+d3.xml('data/ring.svg', 'image/svg+xml', function (error, data) {
     if (error) {
         console.log('Error while loading the SVG file!', error);
     }
@@ -29,7 +29,12 @@ d3.xml('../images/ring.min.svg', 'image/svg+xml', function (error, data) {
         for (var i = regions.length - 1; i >= 0; i--) {
           var region = regions[i];
           var node = d3.select('#' + region + '-group');
-          node.attr('opacity', 0.8);
+          node.attr('opacity', 0.85)
+            .attr('class', 'svg-group')
+            .attr("xlink:href", "#" + region + '-block')
+            .on('click', function(){
+            window.location.hash = d3.select(this).attr('xlink:href');
+          });
           groups.push(node);
         };
     }
